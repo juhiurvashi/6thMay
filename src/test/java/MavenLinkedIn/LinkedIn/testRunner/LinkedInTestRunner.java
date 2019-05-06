@@ -72,6 +72,11 @@ public class LinkedInTestRunner {
 		{
 			
 		}
+		@Test
+		public void css()
+		{
+			
+		}
 		@AfterMethod
 		public void closeBrow()
 		{
