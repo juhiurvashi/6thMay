@@ -17,11 +17,11 @@ import org.testng.reporters.Files;
 
 import MavenLinkedIn.LinkedIn.util.BrowserFactory;
 import MavenLinkedIn.LinkedIn.util.CommonUtil;
-import MavenLinkedIn.com.pageObject.HomePage;
+import MavenLinkedIn.com.pageObject.CreateAccount;
 
 public class LinkedInTestRunner {
 		WebDriver driver;
-		HomePage hp;
+		CreateAccount hp;
 		
 		@BeforeMethod
 		public void preCondition() throws IOException
@@ -32,7 +32,7 @@ public class LinkedInTestRunner {
 			String url=CommonUtil.getPropertyValue("config", "url");
 			System.out.println(bn+" "+rn+" "+url);
 			this.driver=BrowserFactory.openBrowser(bn, rn);
-			hp=PageFactory.initElements(driver, HomePage.class);
+			hp=PageFactory.initElements(driver, CreateAccount.class);
 			BrowserFactory.openURL(url);
 			
 		}

@@ -2,42 +2,36 @@
 <testng-results skipped="0" failed="1" ignored="1" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="188823" started-at="2019-04-25T06:37:07Z" finished-at="2019-04-25T06:40:15Z">
+  <suite name="Default suite" duration-ms="153282" started-at="2019-05-27T12:30:49Z" finished-at="2019-05-27T12:33:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="188823" started-at="2019-04-25T06:37:07Z" finished-at="2019-04-25T06:40:15Z">
-      <class name="MavenLinkedIn.LinkedIn.testRunner.LinkedInTestRunner">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:MavenLinkedIn.LinkedIn.testRunner.LinkedInTestRunner@1794d431]" name="preCondition" is-config="true" duration-ms="8643" started-at="2019-04-25T06:37:07Z" finished-at="2019-04-25T06:37:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method status="FAIL" signature="CheckTitle()[pri:0, instance:MavenLinkedIn.LinkedIn.testRunner.LinkedInTestRunner@1794d431]" name="CheckTitle" duration-ms="180156" started-at="2019-04-25T06:37:15Z" finished-at="2019-04-25T06:40:15Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+    <test name="Default test" duration-ms="153282" started-at="2019-05-27T12:30:49Z" finished-at="2019-05-27T12:33:22Z">
+      <class name="MavenLinkedIn.LinkedIn.testRunner.AddExtensionTestRunner">
+        <test-method status="FAIL" signature="leadIQAppLaunch()[pri:0, instance:MavenLinkedIn.LinkedIn.testRunner.AddExtensionTestRunner@13deb50e]" name="leadIQAppLaunch" duration-ms="153228" started-at="2019-05-27T12:30:49Z" finished-at="2019-05-27T12:33:22Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-1RHTLLE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Juhi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59593}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 9d1229504c5f057f7c3ec87521e9170a
-*** Element info: {Using=xpath, value=//input[@id='username']}]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Juhi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63636}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 7becbb7e4ef94e668083bc9e40791b58]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-1RHTLLE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Juhi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59593}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 9d1229504c5f057f7c3ec87521e9170a
-*** Element info: {Using=xpath, value=//input[@id='username']}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Juhi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63636}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 7becbb7e4ef94e668083bc9e40791b58
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -50,11 +44,9 @@ at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttp
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at MavenLinkedIn.LinkedIn.testRunner.LinkedInTestRunner.CheckTitle(LinkedInTestRunner.java:48)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+at MavenLinkedIn.LinkedIn.testRunner.AddExtensionTestRunner.leadIQAppLaunch(AddExtensionTestRunner.java:72)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -82,15 +74,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckTitle -->
-        <test-method status="PASS" signature="closeBrow()[pri:0, instance:MavenLinkedIn.LinkedIn.testRunner.LinkedInTestRunner@1794d431]" name="closeBrow" is-config="true" duration-ms="0" started-at="2019-04-25T06:40:15Z" finished-at="2019-04-25T06:40:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrow -->
-      </class> <!-- MavenLinkedIn.LinkedIn.testRunner.LinkedInTestRunner -->
+        </test-method> <!-- leadIQAppLaunch -->
+      </class> <!-- MavenLinkedIn.LinkedIn.testRunner.AddExtensionTestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
